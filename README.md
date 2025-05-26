@@ -2,11 +2,9 @@
 
 Introducing <strong> Energy Flow X</strong>, an advanced web application for engineers!
 
-
-| CREATED BY (All rights reserved):           | DEVELOPER:                                                                                                                                          |
-|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![logo-sns.png](assets/images/logo-sns.png) | **Piotr Jazdzyk,** MSc Eng <br> [Read more about the author](https://energyflowx.com/social) <br> [Reach me out on LinkedIn](https://www.linkedin.com/in/pjazdzyk) |
-
+| PROJECT LOGO (Copyright pending)                                       | URL's:                                                                                                           |
+|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| [![logo-sns.png](assets/images/logo-efx.png)](https://energyflowx.com) | ⇒ [Go to EFX Website](https://energyflowx.com) ⇐ <br><br> ⇒ [Go to EFX Demo API](https://demo.energyflowx.com) ⇐ |
 
 EnergyFlowX integrates the following of my HVAC engineering libraries:
 - [HVAC | Engine](https://github.com/pjazdzyk/hvac-engine) - The physics of air with water vapor content including thermodynamic processes,
@@ -16,10 +14,12 @@ EnergyFlowX integrates the following of my HVAC engineering libraries:
 This service is dedicated to HVAC/MEP, mechanical engineers, and chemical and process engineers providing accurate calculations of air properties with humidity
 content (Psychrometrics) and thermodynamic processes within the typical parameters scope for HVAC industry applications.<br>
 
-> This is **NOT** _"just another psychrometrics calculator"_. <br>
-> This is an **entire engineering software ecosystem**, crafted to develop engineering projects like this one. <br>
-> It is the result of **years** of development, with more than 10 000-hour spent of my private time. <br> 
-> Frontend part is just the crowning jewel — the cherry on top. <br>
+#### EnergyFlowX is planned to be commercialized in the coming months, once the testing phase with end users is successfully completed.
+
+> This is not "_just another psychrometrics calculator_." <br>
+> It is a **comprehensive engineering software ecosystem**, designed to support the development of complex engineering projects like this one. <br>
+> This product is the result of **years of development, with over 10,000 hours** of personal time invested. <br>
+> The frontend is merely the crowning jewel — the cherry on top. <br>
 
 To readers unfamiliar with fluid mechanics and thermodynamics, the calculation forms may appear deceptively simple. 
 But **trust me** — there’s nothing simple here once you look behind the curtain… <br>
@@ -32,19 +32,21 @@ or formulas derived by myself. You can review the full list of reference sources
 Eager to see how the project works and help HVAC engineers? Visit the site below, register to create your own free 
 account, and feel free to explore the site! <br>
 
-| PROJECT LOGO (Copyright pending)                                       | URL's:                                                                                                           |
-|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| [![logo-sns.png](assets/images/logo-efx.png)](https://energyflowx.com) | ⇒ [Go to EFX Website](https://energyflowx.com) ⇐ <br><br> ⇒ [Go to EFX Demo API](https://demo.energyflowx.com) ⇐ |
-
 If you are a developer interested in creating your own application—check the API demo. I can provide you REST API as a service
 so you could focus on your application business layer instead of investing ~10 000 of hours for building backbone physics libraries as I did.
 API-As-Service is available only in individual pricing mode. Contact me directly for details!
 
+| CREATED BY (All rights reserved):           | DEVELOPER:                                                                                                                                                         |
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![logo-sns.png](assets/images/logo-sns.png) | **Piotr Jazdzyk,** MSc Eng <br> [Read more about the author](https://energyflowx.com/social) <br> [Reach me out on LinkedIn](https://www.linkedin.com/in/pjazdzyk) |
+
+Do not forget to say hello!
+
 **NO AI ZONE**. <br>
 All calculations use fine crafted algorithms based on existing scientific formulas and equations, implemented from scratch all by myself.
 I love AI, but this is not a right project for using LLMs.
----
 
+---
 # DOCUMENTATION
 
 1. [Tech & dependencies](#1-tech-and-dependencies) <br>
@@ -65,9 +67,9 @@ I love AI, but this is not a right project for using LLMs.
    5.11 [Error response](#511-error-response) <br>
    5.12 [SwaggerUI](#512-swagger-ui) <br>
 6. [Attribution and citation](#6-licensing-attribution-and-citation) <br>
-7. [Acknowledgments](#7-acknowledgments) <br>
-8. [Reference sources](#8-reference-sources) <br>
-
+7. [Feature request and bug reporting](#7-feature-request-and-bug-reporting) <br>
+8. [Acknowledgments](#8-acknowledgments) <br>
+9. [Reference sources](#9-reference-sources) <br>
 
 ## 1. TECH AND DEPENDENCIES
 
@@ -357,16 +359,32 @@ For easier API testing a SWAGGER UI has been provided, follow this URL: https://
 Please be informed that any reference to this project must be appropriately cited to include the author's attribution.
 Additionally, it should be noted that while samples may have been shared publicly for educational purposes, the project
 as a whole is designated for commercial utilization. Unauthorized commercial usage is strictly prohibited.
-All rights are reserved by the author.
+The author reserves all rights.
 
-## 7. ACKNOWLEDGMENTS
+## 7. Feature request and bug reporting
+I really appreciate your feedback and new ideas. This project was created by an engineer, for engineers.
+I want this site to be as helpful as possible in your daily tasks. Please report any bugs or feature requests 
+on the [GitHub Issues](https://github.com/pjazdzyk/energy-flow-x-demo/issues) page.
+
+### **Help me improve by reporting any bugs you encounter.**
+To ensure we can resolve issues quickly, please include the following information in your report:
+
+- **Page or Functionality**: Specify which page or feature you were using when the issue occurred.
+- **Description**: Provide a clear and detailed description of the bug.
+- **Input Data**: Mention the data or inputs used when the bug occurred.
+- **Result and Expectation**: Explain what happened and what you expected to happen.
+- **App Version**: Include the app version, which you can find at the bottom of the application.
+
+**Your feedback is the fuel that drives this project forward.**  
+Every suggestion, idea, or bug report helps make this tool better for everyone—thank you for being a part of that process!
+
+## 8. ACKNOWLEDGMENTS
 
 I want to thank [Mabas83](https://github.com/mabas83), for everything you did for me. <br>
 I extend my heartfelt gratitude to the [Silesian University of Technology](https://www.polsl.pl/en/) for the knowledge, scientific guidance, and for shaping me into an engineer.<br>
 Special thanks for [GreedyJ4ck](https://github.com/greedyj4ck) for multiple discussion and valuable suggestions during frontend development. BIG THANKS!
 
-## 8. REFERENCE SOURCES
-In the JavaDoc, you'll find linked references to specific papers and technical literature listed below.
+## 9. REFERENCE SOURCES
 
 * [1] - ASHRAE FUNDAMENTALS 2002, CHAPTER 6 "Psychrometrics"
 * [2] - Buck, Arden L. "New Equations for Computing Vapour Pressure and Enhancement Factor". Journal of Applied Meteorology and Climatology (December 1981).
@@ -382,3 +400,7 @@ In the JavaDoc, you'll find linked references to specific papers and technical l
 * [13] - Mitosek M. Mechanika płynów w inżynierii i ochronie środowiska. Polskie Wydawnictwo Naukowe PWN (2001r).
 * [14] - Lotfi Z., Jean Loup R., Bachir A. Explicit solutions for a turbulent flow friction factor: A review, assessment, and approaches classification. Ain Shams Engineering Journal (2019r)
 * [15] - Brent-Dekker Iterative Solver - Modified Algorithm proposed by Zhengqiu Zhang / International Journal of Experimental Algorithms (IJEA), Volume (2) : Issue (1) : 2011
+* [16] - F.E. Jones, G.L. Harris. ITS-90 Density of water formulation for volumetric standards' calibration. Journal of Research of the National Institute of Standards and Technology (1992)
+* [17] - Water specific heat tables: https://www.engineeringtoolbox.com/specific-heat-capacity-water-d_660.html
+* [18] - Antoine Equation Coefficient for pure substances: https://myengineeringtools.com/Data_Diagrams/Antoine_Law_Coefficients.html
+* [19] - M. L. Huber,a… R. A. Perkins, A. Laesecke, and D. G. Friend. J. V. Sengers M. J. Assael and I. N. Metaxa E. Vogel R. Mareš K. Miyagawa. New International Formulation for the Viscosity of H2O. Journal of Research of the National Institute of Standards and Technology (1992)
